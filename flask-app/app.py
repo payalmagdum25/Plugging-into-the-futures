@@ -15,7 +15,7 @@ def visualization():
     return render_template("visualization.html")
 
 @app.route("/story")
-def story():
+def story(): 
     return render_template("story.html")
 
 @app.route("/conclusion")
